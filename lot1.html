@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="submitweight.js"></script>
+<link rel = "stylesheet" href = "style.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<title>Lot 1</title>
+</head>
+<body>
+    <div class="grandParentContaniner1">
+        <h1>Smith Lot 3-Copy</h1>
+        <h2>Enter Load Data</h2>
+        <div class = "enterdata">
+       
+            <form name="login"> 
+                <div class = "enterdata1">   
+                    Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="date"/><br><br>
+                    Truck Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"/><br><br>
+                    Truck Number&nbsp<input type="text" name="number"/><br><br>
+                    Gross&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="gross"/><br><br>
+                    Tare&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="tare"/><br><br>
+                    <input type="button" onclick="submitWeight(this.form)" value="Submit Weight"/>
+                    <input type="reset" value="Clear"/>
+                    <input type="button" onclick="history.back()" value="Back"/>
+                </div>
+                    <br><br>
+           
+                <table>
+                    <tr>
+                    <center>
+                    <th><center>Date</center></th>
+                    <th><center>Name</center></th>
+                    <th><center>Number</center></th>
+                    <th><center>Gross</center></th>
+                    <th><center>Tare</center></th>
+                    <th><center>Net</center></th>
+                    </center>
+                    </tr>
+                    <tr>
+                    <th><center><a id = 'tdate'></a></center></th>
+                    <th><center><a id= 'tname'></a></center></th>
+                    <th><center><a id= 'tnumber'></a></center></th>
+                    <th><center><a id= 'tgross'></a></center></th>
+                    <th><center><a id= 'ttare'></a></center></th>
+                    <th><center><a id= 'tnet'></a></center></th>
+                    </tr>
+                </table>
+            </div>
+        
+        </form> 
+    </div>
+    
+</body>
+</html>

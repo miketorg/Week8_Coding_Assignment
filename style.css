@@ -1,0 +1,84 @@
+Html, body{
+  font-family: Arial, Helvetica, sans-serif
+  height:100%;
+  margin:0px;
+  padding:0px;
+  background-color: white;
+}
+
+.grandParentContaniner{
+  display:table; 
+  height:100%; 
+  margin: 0 auto;
+
+}
+.grandParentContaniner1{
+  display:table; ;
+  height:100%; 
+  margin: 0 auto;
+
+}
+
+.parentContainer{
+  margin-top: 10px;
+  text-align:center;
+  vertical-align:middle;
+  width: 600px;
+}
+
+.enterdata {
+  font-family: "Audiowide", sans-serif;
+  border: 10px solid black;
+  font-size: 20px;
+  margin: 00% auto;
+  display: block;
+  width:1500px;
+  text-align:center;
+  height: 650px;
+}
+.enterdata1 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 20px;
+  margin-left: 40%;
+  display: block;
+  width:1500px;
+  text-align:left;
+  
+}
+
+form1 {
+  font-family: "Audiowide", sans-serif;
+  border: 10px solid black;
+  font-size: 20px;
+  margin: 00% auto;
+  display: block;
+  width:1500px;
+  text-align:center;
+  height: 350px;
+}
+
+h1 {
+  text-align:center;
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+}
+
+h2 {
+  text-align:center;
+  font-size: 25px;
+  font-family: "Audiowide", sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
